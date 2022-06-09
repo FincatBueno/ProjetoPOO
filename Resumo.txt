@@ -1,0 +1,2 @@
+	Nosso trabalho, consiste em uma visual novel, fazendo escolhas por cenas para chegar em um objetivo final, podendo ou não ter sucesso na história, o projeto tinha como ideia usar herança das cenas com janelas para reprentar as cenas e números diversificados de botões para cada tipo de cena.
+	Para estrutura auxiliar, usamos o vector da stl.
