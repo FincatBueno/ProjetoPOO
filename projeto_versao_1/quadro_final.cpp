@@ -18,7 +18,7 @@ quadro_final* quadro_final::getInstancia(){
 quadro_final::quadro_final(QWidget *parent)
     : quadro{parent}
 {
-    setGeometry(200, 200, 1000, 750);
+    setGeometry(300, 50, 1000, 750);
     labelquadro = new QLabel(this);
 
     labelquadro->setFixedWidth(this->width());

@@ -16,7 +16,7 @@
 Janela::Janela(QWidget *parent)
     : QMainWindow{parent}
 {
-    setGeometry(200, 200, 1000, 750);
+    setGeometry(300, 50, 1000, 750);
     label = new QLabel(this);
     pix.load(":/imagens/Capa.png");
 
@@ -47,7 +47,7 @@ void Janela::AcaoAoClicar(){
     // o que estiver aqui vai ser executado
     //quadro1 = new quadro(this, Qt::Window);
     //quadro1->show();
-    quadro_historia1 = new quadro_historia(1);
+    quadro_historia1 = new quadro_historia(0);
     quadro_historia1->show();
     this->hide();
 }

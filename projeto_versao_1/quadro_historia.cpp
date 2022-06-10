@@ -11,7 +11,7 @@ quadro_historia::quadro_historia(QWidget *parent)
 
 quadro_historia::quadro_historia(int posicao){
 
-    setGeometry(200, 200, 1000, 750);
+    setGeometry(300, 50, 1000, 750);
     this->posicao = posicao;
     labelquadro = new QLabel(this);
     pix.load(v[this->posicao]);
